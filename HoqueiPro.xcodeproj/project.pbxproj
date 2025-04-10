@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		88F4DB362DA81937005FDBE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F4DB1D2DA81935005FDBE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F4DB242DA81935005FDBE7;
+			remoteInfo = HoqueiPro;
+		};
+		88F4DB402DA81937005FDBE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F4DB1D2DA81935005FDBE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F4DB242DA81935005FDBE7;
+			remoteInfo = HoqueiPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88F4DB252DA81935005FDBE7 /* HoqueiPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoqueiPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F4DB352DA81937005FDBE7 /* HoqueiProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoqueiProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F4DB3F2DA81937005FDBE7 /* HoqueiProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoqueiProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		88F4DB272DA81935005FDBE7 /* HoqueiPro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HoqueiPro;
+			sourceTree = "<group>";
+		};
+		88F4DB382DA81937005FDBE7 /* HoqueiProTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HoqueiProTests;
+			sourceTree = "<group>";
+		};
+		88F4DB422DA81937005FDBE7 /* HoqueiProUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HoqueiProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F4DB222DA81935005FDBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DB322DA81937005FDBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DB3C2DA81937005FDBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F4DB1C2DA81935005FDBE7 = {
+			isa = PBXGroup;
+			children = (
+				88F4DB272DA81935005FDBE7 /* HoqueiPro */,
+				88F4DB382DA81937005FDBE7 /* HoqueiProTests */,
+				88F4DB422DA81937005FDBE7 /* HoqueiProUITests */,
+				88F4DB262DA81935005FDBE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F4DB262DA81935005FDBE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DB252DA81935005FDBE7 /* HoqueiPro.app */,
+				88F4DB352DA81937005FDBE7 /* HoqueiProTests.xctest */,
+				88F4DB3F2DA81937005FDBE7 /* HoqueiProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F4DB242DA81935005FDBE7 /* HoqueiPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F4DB492DA81937005FDBE7 /* Build configuration list for PBXNativeTarget "HoqueiPro" */;
+			buildPhases = (
+				88F4DB212DA81935005FDBE7 /* Sources */,
+				88F4DB222DA81935005FDBE7 /* Frameworks */,
+				88F4DB232DA81935005FDBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				88F4DB272DA81935005FDBE7 /* HoqueiPro */,
+			);
+			name = HoqueiPro;
+			packageProductDependencies = (
+			);
+			productName = HoqueiPro;
+			productReference = 88F4DB252DA81935005FDBE7 /* HoqueiPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88F4DB342DA81937005FDBE7 /* HoqueiProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F4DB4C2DA81937005FDBE7 /* Build configuration list for PBXNativeTarget "HoqueiProTests" */;
+			buildPhases = (
+				88F4DB312DA81937005FDBE7 /* Sources */,
+				88F4DB322DA81937005FDBE7 /* Frameworks */,
+				88F4DB332DA81937005FDBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F4DB372DA81937005FDBE7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				88F4DB382DA81937005FDBE7 /* HoqueiProTests */,
+			);
+			name = HoqueiProTests;
+			packageProductDependencies = (
+			);
+			productName = HoqueiProTests;
+			productReference = 88F4DB352DA81937005FDBE7 /* HoqueiProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88F4DB3E2DA81937005FDBE7 /* HoqueiProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F4DB4F2DA81937005FDBE7 /* Build configuration list for PBXNativeTarget "HoqueiProUITests" */;
+			buildPhases = (
+				88F4DB3B2DA81937005FDBE7 /* Sources */,
+				88F4DB3C2DA81937005FDBE7 /* Frameworks */,
+				88F4DB3D2DA81937005FDBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F4DB412DA81937005FDBE7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				88F4DB422DA81937005FDBE7 /* HoqueiProUITests */,
+			);
+			name = HoqueiProUITests;
+			packageProductDependencies = (
+			);
+			productName = HoqueiProUITests;
+			productReference = 88F4DB3F2DA81937005FDBE7 /* HoqueiProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F4DB1D2DA81935005FDBE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					88F4DB242DA81935005FDBE7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					88F4DB342DA81937005FDBE7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 88F4DB242DA81935005FDBE7;
+					};
+					88F4DB3E2DA81937005FDBE7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 88F4DB242DA81935005FDBE7;
+					};
+				};
+			};
+			buildConfigurationList = 88F4DB202DA81935005FDBE7 /* Build configuration list for PBXProject "HoqueiPro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F4DB1C2DA81935005FDBE7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 88F4DB262DA81935005FDBE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F4DB242DA81935005FDBE7 /* HoqueiPro */,
+				88F4DB342DA81937005FDBE7 /* HoqueiProTests */,
+				88F4DB3E2DA81937005FDBE7 /* HoqueiProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88F4DB232DA81935005FDBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DB332DA81937005FDBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DB3D2DA81937005FDBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F4DB212DA81935005FDBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DB312DA81937005FDBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DB3B2DA81937005FDBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88F4DB372DA81937005FDBE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F4DB242DA81935005FDBE7 /* HoqueiPro */;
+			targetProxy = 88F4DB362DA81937005FDBE7 /* PBXContainerItemProxy */;
+		};
+		88F4DB412DA81937005FDBE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F4DB242DA81935005FDBE7 /* HoqueiPro */;
+			targetProxy = 88F4DB402DA81937005FDBE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88F4DB472DA81937005FDBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88F4DB482DA81937005FDBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88F4DB4A2DA81937005FDBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoqueiPro/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.HoqueiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88F4DB4B2DA81937005FDBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoqueiPro/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.HoqueiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88F4DB4D2DA81937005FDBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.HoqueiProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoqueiPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoqueiPro";
+			};
+			name = Debug;
+		};
+		88F4DB4E2DA81937005FDBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.HoqueiProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoqueiPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoqueiPro";
+			};
+			name = Release;
+		};
+		88F4DB502DA81937005FDBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.HoqueiProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoqueiPro;
+			};
+			name = Debug;
+		};
+		88F4DB512DA81937005FDBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.HoqueiProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoqueiPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F4DB202DA81935005FDBE7 /* Build configuration list for PBXProject "HoqueiPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4DB472DA81937005FDBE7 /* Debug */,
+				88F4DB482DA81937005FDBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F4DB492DA81937005FDBE7 /* Build configuration list for PBXNativeTarget "HoqueiPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4DB4A2DA81937005FDBE7 /* Debug */,
+				88F4DB4B2DA81937005FDBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F4DB4C2DA81937005FDBE7 /* Build configuration list for PBXNativeTarget "HoqueiProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4DB4D2DA81937005FDBE7 /* Debug */,
+				88F4DB4E2DA81937005FDBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F4DB4F2DA81937005FDBE7 /* Build configuration list for PBXNativeTarget "HoqueiProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4DB502DA81937005FDBE7 /* Debug */,
+				88F4DB512DA81937005FDBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88F4DB1D2DA81935005FDBE7 /* Project object */;
+}
