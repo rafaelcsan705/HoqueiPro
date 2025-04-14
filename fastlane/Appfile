@@ -1,6 +1,7 @@
 app_identifier("com.rafaelsantos.HoqueiPro") # The bundle identifier of your app
 apple_id("rafaelcsan705@gmail.com") # Your Apple Developer Portal username
 
+itc_team_id("127476674")
 team_id("8JSPBLZJX6")
 team_name("Rafael Mat1k Santos")
 
