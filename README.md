@@ -40,6 +40,49 @@ HoqueiPro/
 
 ---
 
+# 🚀 Roadmap - Hoquei Pro
+
+## ✅ Initial Setup
+- [x] Project base setup (MVVM, Clean Architecture)
+- [ ] CI/CD setup with GitHub Actions
+
+## 🧑‍🤝‍🧑 Players
+- [ ] Player List View
+- [ ] Player Detail View
+- [ ] Add/Edit/Delete Player
+- [ ] Store players locally (CoreData or UserDefaults)
+- [ ] API sync (Mock > Real)
+
+## 🏒 Matches
+- [ ] Match List
+- [ ] Register a new match
+- [ ] Associate players with a match
+- [ ] Match statistics
+
+## 📊 Statistics
+- [ ] Player rankings
+- [ ] Progression over matches
+- [ ] Performance charts
+
+## ⚙️ Technical
+- [ ] Logging (e.g., network logs like in OneCare)
+- [ ] Error handling and alerts
+- [ ] Internationalization (Localizable.strings)
+- [ ] Dark/Light mode support
+
+## 🧪 Testing
+- [ ] Unit tests for PlayerViewModel
+- [ ] Unit tests for match logic
+- [ ] Basic UI tests (Player List and Detail)
+
+## 🚀 Deployment
+- [ ] Prepare README with setup instructions
+- [ ] Generate screenshots
+- [ ] TestFlight submission (if applicable)
+
+
+---
+
 ## 🚀 Como correr a app
 
 1. Clonar o repositório:
