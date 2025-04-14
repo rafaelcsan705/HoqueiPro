@@ -37,7 +37,7 @@ jobs:
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
           
       - name: Upload IPA
-        uses: actions/upload-artifact@v3.1.3
+        uses: actions/upload-artifact@v3
         with:
             name: HoqueiPro.ipa
             path: ./HoqueiPro.ipa
