@@ -18,13 +18,14 @@ default_platform(:ios)
 platform :ios do
   desc "Distribute for TestFlight"
   lane :beta do
-	match(
-		type: "appstore",
-		git_url: "https://github.com/rafaelcsan705/ios-certificates.git",
-		ssh_key_path: ENV["MATCH_PRIVATE_KEY"]
+    match(
+      type: "appstore",
+      git_url: "https://github.com/rafaelcsan705/ios-certificates.git",
+      git_basic_authorization: ENV["MATCH_GIT_BASIC_AUTHORIZATION"]
+    )
 
-	)
-	build_app(scheme: "HoqueiPro")
-	upload_to_testflight
+    build_app(scheme: "HoqueiPro")
+
+    upload_to_testflight
   end
 end
